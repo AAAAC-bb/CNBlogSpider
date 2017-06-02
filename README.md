@@ -12,10 +12,10 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-import blogCnSpider
+import CNBlogSpider
 
 # 建立对象，设置用户名为'testusername'，从文章ID 1000000开始到1000100结束，同时运行100个线程
-cnbs = blogCnSpider.cnBLogSpider("testusername", 1000000,1000100,100)
+cnbs = CNBlogSpider.cnBLogSpider("testusername", 1000000,1000100,100)
 # 开始爬行
 cnbs.run()
 ```

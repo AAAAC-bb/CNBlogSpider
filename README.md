@@ -23,7 +23,7 @@ cnbs.run()
 ### 作为程序执行
 
 ```shell
-python3 main.py 'testusername' 1000000 1000100 100
+python3 main.py testusername 1000000 1000100 100
 ```
 
 
